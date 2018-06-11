@@ -1,0 +1,28 @@
+/* input:not(:placeholder-shown):invalid{
+    border-color: #E9573F;
+} */
+
+.invalidText {
+    color: red;
+}
+
+.error-border {
+    border-color: #E9573F !important;
+}
+
+/* input:not(:placeholder-shown):valid{
+    border-color: #8CC152;
+} */
+
+/* input:required:focus {
+    border-color: #E9573F;
+} */
+
+/* input:invalid:focus{
+    border-color: #E9573F;
+} */
+
+::placeholder {
+    color: rgba(167, 162, 162, 0.438) !important;
+}
+
